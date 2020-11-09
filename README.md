@@ -1,2 +1,2 @@
-# AnalisisMultimensional
-Repos de Analysis Multidimensional
+# 2020-3-Analisis
+Archivos del curso de Análisis Multidimensional
