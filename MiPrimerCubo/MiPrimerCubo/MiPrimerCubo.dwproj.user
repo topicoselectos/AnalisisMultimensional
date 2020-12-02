@@ -7,14 +7,14 @@
           <ConfigurationSetting>
             <Id>DW North Wind</Id>
             <Name>DW North Wind</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe3ktR4wMBkSmLxZwV1SfQQAAAAAcAAAARABXACAATgBvAHIAdABoACAAVwBpAG4AZAAAABBmAAAAAQAAIAAAAA+q46awgLLBbvR1QPsi2RT0u6zv1or677jv3/omGlzOAAAAAA6AAAAAAgAAIAAAAKb9+PSGqk9SxtpOeRsttxW9e+D+EjJMChJ0624fKhhMEAAAAAf/rOdY4YxwZaWl0mpKXhxAAAAAH9Wb7zkY8LAM7tu+aWqA4iaEmVq3aRMby0UyAT/XAPNO9f6skTRWLMadbKwGSRJJnuDppmcwCRSYh94a03kcbA==</Value>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9CFDLFSJKUK9MCCivqLOMQAAAAAcAAAARABXACAATgBvAHIAdABoACAAVwBpAG4AZAAAABBmAAAAAQAAIAAAAF0BZaLebYpt4PtpIVfJa2j2xOM3spcQHveJN0G9FSEYAAAAAA6AAAAAAgAAIAAAANH3FCiaDZmwJ51MYyuobfy9a7BncMJk8sHvGkg/bNScEAAAAPoxaeeakOteolmaH9vgO6tAAAAAYd4JDK8H/50XS07ChDeQH2CVEf9wSW987ZylB9W6C6W7UG+jy1tEHHgpvzoO5JczrbTh8q1DAShezxDotX4A1A==</Value>
           </ConfigurationSetting>
         </UserIDs>
         <UserPasswords>
           <ConfigurationSetting>
             <Id>DW North Wind</Id>
             <Name>DW North Wind</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe3ktR4wMBkSmLxZwV1SfQQAAAAAcAAAARABXACAATgBvAHIAdABoACAAVwBpAG4AZAAAABBmAAAAAQAAIAAAAG1MuDxQYNJAC45uCvCueZw/zpV5/E4YGlArXgydWeFvAAAAAA6AAAAAAgAAIAAAAOv5fRt27x1SD8cOyhjG2rGCc2u5zIe5pEyiEvoWVujuIAAAAMFtskLGykt9bC0+Ska7IAJxjm7Tq/1SBYX4U3O0vbAeQAAAAGCgOqYWiODcb0TBr5+NAZN7rn6rfYM2NU4WrHH8Pv/Edg/n7m/+cLDLWd3D510SRNd4WE2u/oWDRCx5Dbc0mxI=</Value>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9CFDLFSJKUK9MCCivqLOMQAAAAAcAAAARABXACAATgBvAHIAdABoACAAVwBpAG4AZAAAABBmAAAAAQAAIAAAAEY+ya+WEqhfBy+Nyfymdg7xYQHLD4h+mZsaSXHrwHN3AAAAAA6AAAAAAgAAIAAAAN0HcI/1AoNDOeP+3L6DfYm/Is8JUo1D86syYhsfero0IAAAAP/9/K1wTnJZw1xIojwqzqoJXq+pdK8vrhLzRTHE9+9kQAAAAMv8wqTPTGoBdiBiaXjbpi+Zgpwo6FINLnUJF4Avu+kgleyMR8e8Gs1DhL0Lh8ihw30ENXAjS2xOZ31918FLuPY=</Value>
           </ConfigurationSetting>
         </UserPasswords>
         <TargetServer>localhost</TargetServer>

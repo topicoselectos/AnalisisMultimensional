@@ -52,7 +52,7 @@
           <ConfigurationSetting>
             <Id>DW North Wind</Id>
             <Name>DW North Wind</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=hecferme-aws-sql-server;Persist Security Info=True;Password=;User ID=;Initial Catalog=DWNorthWind</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=ed-database-sqlserver.cmmakvtlq6ls.us-east-2.rds.amazonaws.com;Persist Security Info=True;Password=;User ID=;Initial Catalog=DWNorthWind</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

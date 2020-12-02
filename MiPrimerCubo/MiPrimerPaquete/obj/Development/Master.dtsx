@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="12/2/2020 6:07:21 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="S2-HRRDESARROLL"
+  DTS:CreatorName="S2-HRRDESARROLL\edwardarce2000"
+  DTS:DTSID="{FFE7335D-9DFB-4D8B-85B9-6EA1A7BF0398}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.132"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="21"
+  DTS:VersionGUID="{F6485EAF-4757-41C6-AC29-5B100FF7B4E8}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ed-database-sqlserver.cmmakvtlq6ls.us-east-2.rds.amazonaws.com.DWNorthWind.admin]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{B71AA615-F511-40F8-836C-9C85B9555240}"
+      DTS:ObjectName="ed-database-sqlserver.cmmakvtlq6ls.us-east-2.rds.amazonaws.com.DWNorthWind.admin">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=ed-database-sqlserver.cmmakvtlq6ls.us-east-2.rds.amazonaws.com;User ID=admin;Initial Catalog=DWNorthWind;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9CFDLFSJKUK9MCCivqLOMQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACewQTWbvgvErePO/eowW25nCiAtAYvmY6Pi1OK7Jt0yAAAAAAOgAAAAAIAACAAAABiphL+WvmvKRfXpqMOrwp6JJkJeKXYBKICC/uyGHu59CAAAADWhzTCKsvXOUj5c6rHP0V3ljmTA8OZhWVL6AsMvU3PxUAAAABZISSZ15FgRjMvaSYEcd82ZgUcZVG7kpd1KQYd/CLVz7a+AdYqRlMMQdbDXI/tGlQGI1Ov/4jHtXUpOsnkoV79</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ed-database-sqlserver.cmmakvtlq6ls.us-east-2.rds.amazonaws.com.NorthWind.admin]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{1F723381-E473-49D8-92D2-8ACAAD292A84}"
+      DTS:ObjectName="ed-database-sqlserver.cmmakvtlq6ls.us-east-2.rds.amazonaws.com.NorthWind.admin">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=ed-database-sqlserver.cmmakvtlq6ls.us-east-2.rds.amazonaws.com;User ID=admin;Initial Catalog=NorthWind;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA9CFDLFSJKUK9MCCivqLOMQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACwyb6GuN5Winc3HGF51IsI1nPqmGIPsmYfZ9fZR4q0mQAAAAAOgAAAAAIAACAAAABSXdyrhtjxJaQTrRz7/Y6b1AHPe6aOgWNDiFlgCgOJ2yAAAADtAB0cKGRARk/huhCc39Ah0Ht05g2vHmCCvXDtQBnQLkAAAADvGUX7W6i+melX0V/JKeYOHJBxgIMIwt2LdyjLanmMh0rUb4DStGBEHPg4rrrKpARWwFA7VcpwZe51cQ43OGcW</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{9303A19A-B097-4FF6-AB99-63F03E17C682}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="NombrePaquete">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{C188D7A5-B45F-430B-87A0-8A5302379732}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="Paquetes">
+      <DTS:VariableValue
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\ObtenerListaPaquetes"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{9A7B0E64-DEB1-45AA-8F6D-E7C05B53960D}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="ObtenerListaPaquetes"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\ObtenerListaPaquetes\OLE DB Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="OLE DB Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select [Paquete] from [dbo].[PaqueteEjecucion]
+where [Habilitacion]=1
+order by [OrdenEjecucion]</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\ObtenerListaPaquetes\OLE DB Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ed-database-sqlserver.cmmakvtlq6ls.us-east-2.rds.amazonaws.com.DWNorthWind.admin]"
+                  connectionManagerRefId="Package.ConnectionManagers[ed-database-sqlserver.cmmakvtlq6ls.us-east-2.rds.amazonaws.com.DWNorthWind.admin]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Output].Columns[Paquete]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Paquete]"
+                      length="50"
+                      lineageId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Output].Columns[Paquete]"
+                      name="Paquete"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Paquete]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Paquete" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Paquete]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Paquete]"
+                      name="Paquete" />
+                    <outputColumn
+                      refId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\ObtenerListaPaquetes\Recordset Destination"
+              componentClassID="Microsoft.RecordsetDestination"
+              contactInfo="Recordset Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates and populates an in-memory ADO recordset that is available outside of the data flow. Scripts and other package elements can use the recordset. For example, use a recordset to store the names of files that will be loaded into the data warehouse."
+              name="Recordset Destination">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the recordset."
+                  name="VariableName">User::Paquetes</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\ObtenerListaPaquetes\Recordset Destination.Inputs[Recordset Destination Input]"
+                  hasSideEffects="true"
+                  name="Recordset Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\ObtenerListaPaquetes\Recordset Destination.Inputs[Recordset Destination Input].Columns[Paquete]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Paquete"
+                      lineageId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Output].Columns[Paquete]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\ObtenerListaPaquetes.Paths[OLE DB Source Output]"
+              endId="Package\ObtenerListaPaquetes\Recordset Destination.Inputs[Recordset Destination Input]"
+              name="OLE DB Source Output"
+              startId="Package\ObtenerListaPaquetes\OLE DB Source.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\RecorrerPaquetes"
+      DTS:CreationName="STOCK:FOREACHLOOP"
+      DTS:Description="Foreach Loop Container"
+      DTS:DTSID="{078DA07A-9F2E-43F8-AD19-9E69F671EF82}"
+      DTS:ExecutableType="STOCK:FOREACHLOOP"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="RecorrerPaquetes">
+      <DTS:ForEachEnumerator
+        DTS:CreationName="Microsoft.ForEachADOEnumerator"
+        DTS:DTSID="{2F77FD81-5AF8-47D4-8FC6-7576261DCE77}"
+        DTS:ObjectName="{2F77FD81-5AF8-47D4-8FC6-7576261DCE77}">
+        <DTS:ObjectData>
+          <FEEADO
+            EnumType="EnumerateRowsInFirstTable"
+            VarName="User::Paquetes" />
+        </DTS:ObjectData>
+      </DTS:ForEachEnumerator>
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\RecorrerPaquetes\Cargar"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{DCCDCBAF-3DF3-449F-819A-7B5CD8319C6A}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Cargar"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{B71AA615-F511-40F8-836C-9C85B9555240}"
+              SQLTask:SqlStatementSource="insert into dbo.PaqueteEjecucionLog&#xA;(NombrePaquete,DateTimeEjecucion) values (?,getdate())" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+              <SQLTask:ParameterBinding
+                SQLTask:ParameterName="0"
+                SQLTask:DtsVariableName="User::NombrePaquete"
+                SQLTask:ParameterDirection="Input"
+                SQLTask:DataType="129"
+                SQLTask:ParameterSize="-1" />
+            </SQLTask:SqlTaskData>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\RecorrerPaquetes\Recorrer otros paquetes"
+          DTS:CreationName="Microsoft.ExecutePackageTask"
+          DTS:DelayValidation="True"
+          DTS:Description="Execute Package Task"
+          DTS:DTSID="{67263D74-C64F-4CD9-98A9-E632674AE381}"
+          DTS:ExecutableType="Microsoft.ExecutePackageTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Recorrer otros paquetes"
+          DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:PropertyExpression
+            DTS:Name="PackageName">@[User::NombrePaquete]+".dtsx"</DTS:PropertyExpression>
+          <DTS:ObjectData>
+            <ExecutePackageTask>
+              <UseProjectReference>True</UseProjectReference>
+              <ExecuteOutOfProcess>True</ExecuteOutOfProcess>
+              <PackageName>.dtsx</PackageName>
+            </ExecutePackageTask>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\RecorrerPaquetes.PrecedenceConstraints[Constraint]"
+          DTS:CreationName=""
+          DTS:DTSID="{07616DA9-0289-41AC-BA6E-5597C746288A}"
+          DTS:From="Package\RecorrerPaquetes\Recorrer otros paquetes"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint"
+          DTS:To="Package\RecorrerPaquetes\Cargar" />
+      </DTS:PrecedenceConstraints>
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{FFCC7AF3-71D3-4FE7-A55B-39AA5650CFDC}"
+          DTS:ObjectName="{FFCC7AF3-71D3-4FE7-A55B-39AA5650CFDC}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::NombrePaquete" />
+      </DTS:ForEachVariableMappings>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{ACBBAD72-3A06-430D-92B1-2995A11E99F6}"
+      DTS:From="Package\ObtenerListaPaquetes"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\RecorrerPaquetes" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="180.8,41.6"
+          Id="Package\ObtenerListaPaquetes"
+          TopLeft="162.142859904134,74.9411775216099" />
+        <NodeLayout
+          Size="109.6,41.6"
+          Id="Package\RecorrerPaquetes\Cargar"
+          TopLeft="65.6571522722443,115.929414703277" />
+        <NodeLayout
+          Size="192,41.6"
+          Id="Package\RecorrerPaquetes\Recorrer otros paquetes"
+          TopLeft="26.2857230439481,14.5882364523865" />
+        <EdgeLayout
+          Id="Package\RecorrerPaquetes.PrecedenceConstraints[Constraint]"
+          TopLeft="121.371437658096,56.1882364523865">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59.7411782508903"
+              Start="0,0"
+              End="0,52.2411782508903">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.2411782508903" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="274.4,212.8"
+          Size="274.4,256"
+          Id="Package\RecorrerPaquetes"
+          TopLeft="487.857151165301,72.647059842377" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="342.942859904134,95.7411775216099">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="144.914291261167,104.905882320767"
+              Start="0,0"
+              End="137.414291261167,104.905882320767">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="68.4571456305836,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="68.4571456305836,0"
+                    Point2="72.4571456305836,0"
+                    Point3="72.4571456305836,4" />
+                  <mssgle:LineSegment
+                    End="72.4571456305836,100.905882320767" />
+                  <mssgle:CubicBezierSegment
+                    Point1="72.4571456305836,100.905882320767"
+                    Point2="72.4571456305836,104.905882320767"
+                    Point3="76.4571456305836,104.905882320767" />
+                  <mssgle:LineSegment
+                    End="137.414291261167,104.905882320767" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\ObtenerListaPaquetes">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="149.6,41.6"
+          Id="Package\ObtenerListaPaquetes\OLE DB Source"
+          TopLeft="226,65" />
+        <NodeLayout
+          Size="181.6,41.6"
+          Id="Package\ObtenerListaPaquetes\Recordset Destination"
+          TopLeft="214,193" />
+        <EdgeLayout
+          Id="Package\ObtenerListaPaquetes.Paths[OLE DB Source Output]"
+          TopLeft="302.8,106.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,86.4"
+              Start="0,0"
+              End="0,78.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,78.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\ObtenerListaPaquetes\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

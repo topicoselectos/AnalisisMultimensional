@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="11/7/2020 3:20:49 PM"
@@ -23,12 +23,7 @@
       DTS:ObjectName="hecferme-aws-sql-server.DWNorthWind.admin">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=hecferme-aws-sql-server;User ID=admin;Initial Catalog=DWNorthWind;Application Name=SSIS-Package1-{54D6D8CC-D891-42F4-8E75-16E5B3D5D377}hecferme-aws-sql-server.DWNorthWind.admin;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe3ktR4wMBkSmLxZwV1SfQQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACPz1ZA0OlQCkxM8tw6iOBAr8msd/ZN+Bj8aKbW1587GwAAAAAOgAAAAAIAACAAAAC4hPOoI5HeTB1yQpUQXPCPvXHfKBv150c5n4P4hUlR/SAAAADqTHKkVdWAIh1m0JQ4oo3VPlWtb551erXFhtQdCTcKEUAAAAAyo8WzSLMpYJhOicDyUyuF6eiJJWMVUbblJaInd75LsSin0nn7rm7cXyCIJsRS0JjnxVqFxf3L+42aBxFq/XAn</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=hecferme-aws-sql-server;User ID=admin;Initial Catalog=DWNorthWind;Application Name=SSIS-Package1-{54D6D8CC-D891-42F4-8E75-16E5B3D5D377}hecferme-aws-sql-server.DWNorthWind.admin;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -38,12 +33,7 @@
       DTS:ObjectName="hecferme-aws-sql-server.NorthWind.admin">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=hecferme-aws-sql-server;User ID=admin;Initial Catalog=NorthWind;Application Name=SSIS-Package1-{70B775BC-1D56-4491-814D-36AF22C8D8DD}hecferme-aws-sql-server.NorthWind.admin;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe3ktR4wMBkSmLxZwV1SfQQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACP15J1/nX4/WN1pLFE59DtSREkXEySRYZM5SpHNVfunwAAAAAOgAAAAAIAACAAAAAYiTERleXUnyPSI3mATbfnYfdJE0lhfzy2i90U/xFuiyAAAAAq4pr0YoHyMDjZnU9ZBwhBbwCd85QK4X/EU1s8uCxZgEAAAAD34Tgk0zTYw6tkYL67L7A3BqH6+7C0x/J0Ws0f60mgyYGQr+m5ek/8zwp6ItnlegySBifJ2xmIusHjQvNdsRD/</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=hecferme-aws-sql-server;User ID=admin;Initial Catalog=NorthWind;Application Name=SSIS-Package1-{70B775BC-1D56-4491-814D-36AF22C8D8DD}hecferme-aws-sql-server.NorthWind.admin;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
